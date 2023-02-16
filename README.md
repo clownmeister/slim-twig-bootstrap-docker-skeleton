@@ -1,7 +1,15 @@
 # Docker Slim skeleton
 
-Created for easy project setups. Slim 4 project with twig already integrated. 
-Includes docker setup, bootstrap and webpack integration. Includes basic GitHub actions setup as well.
+Created for easy project setups.
+This template includes:
+
+- Slim 4
+- Docker (php, nginx, node)
+- Twig templating engine
+- Bootstrap 5.2
+- GitHub actions setup
+- Webpack integration
+- PHPCS, PHPStan, PHPUnit basic setups
 
 ## Requirements
 
