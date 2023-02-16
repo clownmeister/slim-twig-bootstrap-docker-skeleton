@@ -1,6 +1,6 @@
 {
   "name": "slim-twig-bootstrap-docker-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Skeleton project",
   "repository": "https://github.com/clownmeister/slim-twig-bootstrap-docker-skeleton",
   "author": "ClownMeister",
