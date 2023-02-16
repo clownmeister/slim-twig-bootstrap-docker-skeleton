@@ -1,0 +1,58 @@
+{
+    "name": "clownmeister/lucianblazek",
+    "description": "Personal domain",
+    "keywords": [
+        "microframework",
+        "rest",
+        "router",
+        "psr7"
+    ],
+    "homepage": "https://github.com/clownmeister/lucianblazek",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucián Blažek",
+            "email": "lucianblazek@gmail.com",
+            "homepage": "https://www.lucianblazek.com/"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "monolog/monolog": "^3.3",
+        "php-di/php-di": "^7.0",
+        "slim/psr7": "^1.6",
+        "slim/slim": "^4.11",
+        "slim/twig-view": "^3.3"
+    },
+    "require-dev": {
+        "jangregor/phpstan-prophecy": "^1.0.0",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/extension-installer": "^1.2.0",
+        "phpstan/phpstan": "^1.9",
+        "phpunit/phpunit": "^9.5.28",
+        "squizlabs/php_codesniffer": "^3.7",
+        "symfony/var-dumper": "^6.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        },
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public",
+        "test": "phpunit"
+    }
+}
